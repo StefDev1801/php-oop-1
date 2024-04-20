@@ -29,7 +29,7 @@ class Production {
     public function __construct(string $title, string $language, int $vote)
     {
         $this -> title = $title;
-        $this -> lenguage = $lenguage;
+        $this -> language = $language;
         $this -> vote = $vote;
     }
 
@@ -62,7 +62,7 @@ class Production {
         $this -> lang = $lang;
 
     }
-    
+
     public function setVote($vote)
     {
         $this -> vote = $vote;
